@@ -1,0 +1,485 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0a0505;
+  color: white;
+  padding: 1em;
+}
+
+.intro {
+  margin-top: 60px; 
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.intro img {
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+
+.foto-pertama {
+  width: 100px;
+  height: auto;
+}
+
+.foto-saya {
+width: 200px;
+height: auto;
+}
+
+.judul {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a0c0f;
+}
+
+.konten-tentang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  margin: 0;
+  padding: 0;
+  color: #0d0d0f;
+}
+
+header, nav, main, footer {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f5f5f6;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+}
+
+h1, h2 {
+  color: #77aee5;
+}
+
+img {
+  max-width: 100px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #050505;
+}
+
+form button {
+  background-color: #51606f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  width: 100px; 
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type:none; 
+  display: flex;
+  gap: 2em;
+  }
+
+  .dropdown{
+    background:;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #f3f2f2;
+    padding: 0.5em;
+    list-style: none;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    z-index: 10;
+  }
+  
+  .dropdown-menu li {
+    padding: 0.5em 1em;
+  }
+  
+  .dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav {
+    background-color: #2196f3;
+    padding: 10px 0;
+    border-radius: 8px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .nav li {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #0e0d0d;
+    padding: 10px;
+  }
+  
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+  
+  .dropdown-menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  
+  }
+
+  .kontak-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .form-kontak {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+  }
+  
+  .maps-kontak {
+    flex: 1;
+    min-width: 100px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+
+  section {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 800px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    color: #0b0b0b;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  
+
+  form label,
+form input,
+form textarea,
+form button {
+  font-size: 17px;
+}
+
+form input,
+form textarea {
+  padding: 1px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.bukti-foto {
+  width: 150px;
+  height: auto;
+}
+nav ul li {
+  cursor: pointer;
+}
+
+
+  /* OPINI */
+  .opini-section {
+    background-color: #dce9fd;
+    padding: 60px 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .opini-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .opini-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  .opini-card:hover {
+    transform: translateY(-5px);
+  }
+  .opini-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .opini-info {
+    padding: 16px;
+  }
+  .opini-info h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #222;
+  }
+  .opini-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+
+.sosmed {
+  margin-top: 0.5em;
+}
+
+.sosmed a {
+  color: rgb(245, 236, 236);
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.profil {
+  display: flex;
+  padding: 2em;
+  gap: 2
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  background: #0b0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tentang-saya, .portofolio, .opini, .kontak {
+  padding: 2em;
+}
+
+.tentang {
+  display: block;
+  margin-top: 2em;
+
+}
+
+.tentang {
+  max-width: 400px;
+  margin: 2em auto;
+  padding: 0 1em;
+  text-align: justify;
+}
+.deskripsi {
+  max-width: 60%;
+}
+
+
+.tentang-saya {
+  padding: 20px;
+}
+
+.judul {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #080809;
+  margin-bottom: 20px;
+}
+
+.konten-tentang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.teks-saya {
+  max-width: 500px;
+}
+
+.foto-saya {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.foto-lain {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.foto-lain {
+  margin-top: 1em;
+  width: 100px;
+  height: 100px;
+  background: #eee;
+}
+
+form label {
+  display: inline-block;
+  width: 90px;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+form input, form textarea {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+table, th, td {
+  border: 1px solid #0c0b0b;
+  padding: 0.5em;
+}
+
+.maps-kontak iframe {
+  width: 97%;
+  height: 300px;
+  border: none;
+}
+
+.kontak form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+
+button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  display: block;
+  margin-left: 5px; 
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 14px;
+  margin-top: 40px;
+}
